@@ -1,3 +1,10 @@
+PATH
+  remote: ../svelte-rails
+  specs:
+    svelte-rails (0.1.0)
+      execjs
+      railties (>= 5.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -75,6 +82,7 @@ GEM
     concurrent-ruby (1.1.6)
     crass (1.0.6)
     erubi (1.9.0)
+    execjs (2.7.0)
     ffi (1.13.1)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -210,6 +218,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
+  svelte-rails!
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 3.3.0)

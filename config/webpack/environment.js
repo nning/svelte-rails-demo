@@ -1,5 +1,6 @@
-const { environment } = require('@rails/webpacker')
-const svelte = require('./loaders/svelte')
+const clientLoader = require('./loaders/svelte')
+const serverLoader = require('./loaders/svelte-ssr')
 
-environment.loaders.prepend('svelte', svelte)
-module.exports = environment
+const getSvelteEnvironments = require('svelte_ujs/getSvelteEnvironments')
+
+module.exports = getSvelteEnvironments(clientLoader, serverLoader)
