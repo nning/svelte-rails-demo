@@ -1,4 +1,7 @@
 class HelloController < ApplicationController
-  def show
+  def one
+  end
+
+  def two
   end
 end

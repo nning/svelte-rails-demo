@@ -9,14 +9,16 @@
   let time
 
   onMount(() => {
+		time = new Date()
+
     const interval = setInterval(() => {
-      time = new Date();
-    }, 1000);
+      time = new Date()
+    }, 1000)
 
     return () => {
-      clearInterval(interval);
-    };
-  });
+      clearInterval(interval)
+    }
+  })
 </script>
 
 <style>
