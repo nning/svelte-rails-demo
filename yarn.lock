@@ -6815,7 +6815,7 @@ svelte@^3.23.2:
   integrity sha512-hE8GeTM83YVR4GY6/6PeDEcGct4JS5aCi+IYbCAa76oaPSfuF7L85DQYULQxlTK/KPWzw3L1GRGmC3oPG/PQoA==
 
 svelte_ujs@../svelte-rails:
-  version "0.1.0"
+  version "0.3.1"
 
 svgo@^1.0.0:
   version "1.3.2"
